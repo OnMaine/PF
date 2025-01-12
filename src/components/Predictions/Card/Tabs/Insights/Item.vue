@@ -30,7 +30,7 @@ const props = defineProps({
       </div>
 
       <p
-        class="text-[12px] md:text-[14px] leading-[14px] md:leading-5 text-custom-grey transition-all"
+        class="text-[12px] md:text-[14px] leading-[14px] md:leading-5 text-custom-gray transition-all"
         :class="[name === 'draw' ? 'capitalize' : 'uppercase']"
       >
         {{ name }}

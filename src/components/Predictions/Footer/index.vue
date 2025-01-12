@@ -27,7 +27,7 @@ const submitPredictions = () => {
       <Question />
 
       <div v-if="!isSubmittedPrediction" class="flex flex-col gap-4">
-        <h3 class="text-[11px] leading-4 text-custom-grey">
+        <h3 class="text-[11px] leading-4 text-custom-gray">
           After you submit your predictions, it can’t be undone
         </h3>
         <div class="flex flex-row justify-start md:justify-between items-center gap-3">

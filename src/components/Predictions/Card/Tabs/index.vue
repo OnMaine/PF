@@ -62,7 +62,7 @@ onMounted(() => {
           role="presentation"
         >
           <button
-            class="flex flex-row gap-1 pb-[10px] md:pb-[14px]"
+            class="flex flex-row items-center gap-2 pb-[10px] md:pb-[14px]"
             :id="id + '_tab_' + game_id"
             :data-tabs-target="'#' + id + '_' + game_id"
             type="button"
@@ -70,7 +70,7 @@ onMounted(() => {
             :aria-controls="id + '_' + game_id"
             aria-selected="false"
           >
-            <component :is="icon" class="w-[14px] h-[14px] inline-block" />
+            <component :is="icon" class="inline-block" />
             <span class="text-[12px] leading-[15px]">{{ label }}</span>
           </button>
         </li>

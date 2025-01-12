@@ -19,9 +19,9 @@ defineExpose({ showModal, closeModal })
 </script>
 
 <template>
-  <fwb-modal v-if="isShowModal" size="sm" position="center" @close="closeModal" class="bg-red-300">
+  <fwb-modal v-if="isShowModal" size="sm" position="center" @close="closeModal">
     <template #body>
-      <div class="text-green-700 text-center text-[20px] leading-[30px] font-bold">
+      <div class="text-green-900 text-center text-[20px] leading-[30px] font-bold">
         Your prediction has been submitted. Good luck!
       </div>
     </template>

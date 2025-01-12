@@ -21,7 +21,7 @@ const props = defineProps({
     <div class="flex flex-row justify-between items-center gap-10 w-full">
       <div class="hidden md:flex flex-col justify-start items-start gap-[8px]">
         <h2 class="text-[20px] leading-[27px] font-bold">Countdown</h2>
-        <p class="text-[11px] leading-[15px] text-custom-grey">Don’t miss!</p>
+        <p class="text-[11px] leading-[15px] text-custom-gray">Don’t miss!</p>
       </div>
 
       <Coundown />

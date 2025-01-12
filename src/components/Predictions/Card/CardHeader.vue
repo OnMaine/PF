@@ -27,7 +27,7 @@ const props = defineProps({
 
     <div class="flex flex-row justify-between items-center gap-1">
       <ClockIcon />
-      <p class="text-xs leading-5 text-custom-grey">
+      <p class="text-xs leading-5 text-custom-gray">
         {{ date }}
       </p>
     </div>

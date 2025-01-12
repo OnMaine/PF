@@ -12,7 +12,7 @@ const { updateTiebreakerCounter } = useCounterStore()
     <div class="flex flex-col gap-3 max-w-[240px]">
       <h2 class="text-[18px] leading-[24px] font-bold text-white">Tiebreaker Question</h2>
 
-      <p class="text-[10px] leading-[15px] text-custom-grey">
+      <p class="text-[10px] leading-[15px] text-custom-gray">
         Which minute do you think the first goal will be scored in any of the six matches?
       </p>
     </div>

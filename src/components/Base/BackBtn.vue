@@ -8,7 +8,7 @@ import ArrowIcon from '@/assets/icons/arrow.svg'
       <ArrowIcon />
     </div>
 
-    <p class="text-[14px] leading-[20px] text-custom-grey group-hover:text-white transition-all">
+    <p class="text-[14px] leading-[20px] text-custom-gray group-hover:text-white transition-all">
       Back
     </p>
   </div>
