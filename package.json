@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "author": {
+    "name": "Volodymyr Vasylenko",
+    "email": "onmaine@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
