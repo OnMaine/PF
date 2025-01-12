@@ -1,12 +1,18 @@
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import { defineStore } from 'pinia'
 
 export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0)
-  const doubleCount = computed(() => count.value * 2)
-  function increment() {
-    count.value++
+  const tiebreakerCounter = ref(0);
+  const isSubmittedPrediction = ref(false);
+  const roundDate = ref('2025-02-19 10:03:00')
+
+  const updateTiebreakerCounter = (value) => {
+    tiebreakerCounter.value = value
   }
 
-  return { count, doubleCount, increment }
+  const setSubmittedPrediction = (value) => {
+    isSubmittedPrediction.value = value
+  }
+
+  return { tiebreakerCounter, updateTiebreakerCounter, isSubmittedPrediction, setSubmittedPrediction, roundDate }
 })
