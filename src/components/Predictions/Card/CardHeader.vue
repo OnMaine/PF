@@ -19,8 +19,8 @@ const props = defineProps({
     class="flex flex-row justify-between items-center w-full bg-secondary rounded-[7px] p-[12px] md:p-4"
   >
     <div class="flex flex-row justify-between items-center gap-2">
-      <BallIcon />
-      <p class="text-[9px] md:text-xs leading-[15px] md:leading-5 text-white">
+      <BallIcon class="w-[17px] h-[17px] text-custom-yellow" />
+      <p class="text-[12px] md:text-[14px] leading-[15px] md:leading-5 text-white">
         {{ name }}
       </p>
     </div>

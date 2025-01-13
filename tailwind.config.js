@@ -28,6 +28,7 @@ export default {
     textColor: {
       ...colors,
       'custom-gray': '#727883',
+      'custom-yellow': '#FFBD14',
     },
     colors: {
       'primary': '#131517',
